@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 400px;
+}
+
+h1 {
+    color: #333;
+}
+
+#bet-section select,
+#bet-section button,
+#spin-section button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+#spin-section button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#spin-section button:hover {
+    background-color: #218838;
+}
+
+#result-section {
+    margin-top: 20px;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#result-message {
+    font-size: 18px;
+}
+￼Enter
